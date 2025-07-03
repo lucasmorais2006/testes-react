@@ -19,24 +19,6 @@ function App() {
       name="_gotcha"
       style={{ display: "none !important" }}
     />
-    {/* checkbox handle */}
-    <input
-      type="checkbox"
-      name="subscribe"
-      defaultValue="yes"
-      defaultChecked=""
-    />
-    <input type="hidden" name="subscribe" defaultValue="no" />
-    {/* radio button handle */}
-    <input type="radio" name="gender" defaultValue="male" defaultChecked="" />
-    <input type="radio" name="gender" defaultValue="female" />
-    <input type="radio" name="gender" defaultValue="other" />
-    {/* select field handle */}
-    <select name="work-experience">
-      <option value="one-year">0-1 years</option>
-      <option value="one-five-years">1-5 years</option>
-    </select>
-    <button type="submit">Send</button>
   </form>
   <p />
 </>
