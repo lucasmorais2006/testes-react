@@ -1,7 +1,8 @@
 import './App.css'
 
 function App() {
- return  <div class="h-screen flex items-center justify-center">
+ return <body class="bg-pink-400">
+ <div class="h-screen flex items-center justify-center">
  <button class= "text-center rounded-full p-3 bg-green-500 md:bg-red-600">Entrar</button>
  <>
   {/* Hello world */}
@@ -22,8 +23,8 @@ function App() {
   </form>
   <p />
 </>
-
 </div>
+</body> 
 }
 
 export default App
