@@ -2,7 +2,7 @@ import './App.css'
 
 function App() {
  return  <div class="h-screen flex items-center justify-center">
- <button class= "text-center rounded-full p-3 bg-green-500 md:bg-red-600">ME CLIQUE-ME</button>
+ <button class= "text-center rounded-full p-3 bg-green-500 md:bg-red-600">Entrar</button>
  <>
   {/* Hello world */}
   <div className="awesome" style={{ border: "1px solid red" }}>
@@ -11,9 +11,8 @@ function App() {
   </div>
   <p />
   <form action="https://getform.io/f/adrgmwla" method="POST">
-    <input type="text" name="name" />
-    <input type="email" name="email" />
-    <input type="text" name="message" />
+    <input type="email" name="Digite o email" />
+    <input type="text" name="Digite a senha" />
     {/* add hidden Honeypot input to prevent spams */}
     <input
       type="hidden"
