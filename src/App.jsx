@@ -6,7 +6,7 @@ import { FaCat } from "react-icons/fa"
 
 function App() {
  return <div class="bg-pink-300 h-screen items-center">
-  <header class="text-purple-600 bg-white text-center h-15 font-bold"><FaCat />DudaSys</header>
+  <div class="text-purple-600 bg-white text-center h-15 font-bold"><FaCat />DudaSys</div>
   <div class="h-80 rounded-xl items-center justify-center bg-white w-100 text-center fixed top-[50%] left-[50%] ml-[-15%] mt-[-10%]">
     <h3 class="text-xl p-4 font-bold">Entrar na sua conta</h3>
     <form action="https://getform.io/f/bmdmodra" method="POST">
